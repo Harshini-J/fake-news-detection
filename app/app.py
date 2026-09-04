@@ -10,7 +10,7 @@ from google import genai
 st.set_page_config(page_title="Fake News Detector", page_icon="📰", layout="centered")
 
 # ---------------------------------------------------------------------------
-# Cached resource loading (model, tokenizer, SHAP explainer, Gemini client)
+# Resource loading (model, tokenizer, SHAP explainer, Gemini client)
 # ---------------------------------------------------------------------------
 
 MODEL_PATH = "./distilbert_liar_final"
