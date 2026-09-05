@@ -1,0 +1,142 @@
+[
+  {
+    "text": "Wisconsin is on pace to double the number of layoffs this year.",
+    "true_label": "fake",
+    "predicted_label": "fake",
+    "top_tokens": [
+      [
+        "Wisconsin",
+        0.06956918723881245
+      ],
+      [
+        "double",
+        -0.031466612592339516
+      ],
+      [
+        "pace",
+        -0.02655475214123726
+      ],
+      [
+        "year",
+        -0.025772063061594963
+      ],
+      [
+        "lay",
+        0.025044266134500504
+      ]
+    ],
+    "explanation": "The model leaned toward labeling the statement as fake because specific words like \"Wisconsin\" and \"lay\" pushed the prediction toward that result. However, terms such as \"double,\" \"pace,\" and \"year\" suggested the statement was real, resulting in a slightly higher overall push toward a fake classification at 59% confidence."
+  },
+  {
+    "text": "Says John McCain has done nothing to help the vets.",
+    "true_label": "fake",
+    "predicted_label": "real",
+    "top_tokens": [
+      [
+        "McCain",
+        0.10950756072998047
+      ],
+      [
+        ".",
+        0.04287692904472351
+      ],
+      [
+        "Says",
+        0.034229107201099396
+      ],
+      [
+        "John",
+        0.013844698667526245
+      ],
+      [
+        "vet",
+        0.012916229665279388
+      ]
+    ],
+    "explanation": "The model ultimately classified the statement as REAL even though the words \"Says\", \"John\", \"McCain\", \"vet\", and the period \".\" were all identified as pushing the prediction toward FAKE. Because no words in the statement were found pushing toward a REAL rating, the model made its decision despite these specific terms leaning toward FAKE."
+  },
+  {
+    "text": "When asked by a reporter whether hes at the center of a criminal scheme to violate campaign laws, Gov. Scott Walker nodded yes.",
+    "true_label": "fake",
+    "predicted_label": "fake",
+    "top_tokens": [
+      [
+        "scheme",
+        0.01687728092074394
+      ],
+      [
+        "Scott",
+        0.01659584417939186
+      ],
+      [
+        ".",
+        0.016072943806648254
+      ],
+      [
+        ".",
+        0.015417307615280151
+      ],
+      [
+        "Walker",
+        0.01537233591079712
+      ]
+    ],
+    "explanation": "The model classified the statement as FAKE because specific words like \"scheme\", \"Scott\", and \"Walker\", along with periods (\".\"), strongly pointed toward it being false. At the same time, the model identified no words in the text that pushed the prediction toward being REAL."
+  },
+  {
+    "text": "Donald Trump is against marriage equality. He wants to go back.",
+    "true_label": "real",
+    "predicted_label": "real",
+    "top_tokens": [
+      [
+        "Trump",
+        0.1050791535526514
+      ],
+      [
+        "He",
+        0.04027758538722992
+      ],
+      [
+        "against",
+        0.028193440288305283
+      ],
+      [
+        ".",
+        0.0248960480093956
+      ],
+      [
+        "Donald",
+        0.02484019473195076
+      ]
+    ],
+    "explanation": "Even though the model ultimately labeled the statement as REAL, words such as 'Donald', 'Trump', 'He', 'against', and the period ('.') were actually pushing the prediction toward FAKE. Meanwhile, the model did not find any specific words that actively pushed the classification toward REAL."
+  },
+  {
+    "text": "Unfortunately we have documented instances where people defecated in the (Statehouse) building.",
+    "true_label": "fake",
+    "predicted_label": "fake",
+    "top_tokens": [
+      [
+        "building",
+        0.02817625366151333
+      ],
+      [
+        "Unfortunately",
+        0.026768190786242485
+      ],
+      [
+        "people",
+        0.02460680715739727
+      ],
+      [
+        "documented",
+        0.02254326082766056
+      ],
+      [
+        "ted",
+        0.017514193430542946
+      ]
+    ],
+    "explanation": "The model classified this statement as fake because words like \"building,\" \"Unfortunately,\" \"people,\" \"documented,\" and \"ted\" pushed its decision toward a false rating. At the same time, there were no influential words in the statement that suggested to the model that it was real."
+  }
+]
