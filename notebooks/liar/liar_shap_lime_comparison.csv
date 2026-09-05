@@ -1,0 +1,6 @@
+text_preview,true_label,baseline_pred,distilbert_pred,roberta_pred,shap_words,shap_time_sec,lime_words,lime_time_sec,word_overlap_pct
+Wisconsin is on pace to double the number of layoffs this year.,fake,real,fake,real,"['lay', 'double', 'pace', 'year', 'wisconsin']",0.351301908493042,"['layoffs', 'double', 'pace', 'year', 'wisconsin']",0.5038652420043945,0.6666666666666666
+Says John McCain has done nothing to help the vets.,fake,real,real,fake,"['john', 'mccain', '.', 'says', 'vet']",0.3200869560241699,"['john', 'mccain', 'done', 'nothing', 'says']",0.46477556228637695,0.42857142857142855
+When asked by a reporter whether hes at the center of a criminal scheme to viola,fake,fake,fake,real,"['scott', 'walker', 'scheme', '.']",0.7362205982208252,"['walker', 'scott', 'asked', 'nodded', 'when']",0.698822021484375,0.2857142857142857
+Donald Trump is against marriage equality. He wants to go back.,real,real,real,fake,"['.', 'he', 'against', 'trump', 'donald']",0.2899935245513916,"['marriage', 'wants', 'against', 'trump', 'go']",0.4856395721435547,0.25
+Unfortunately we have documented instances where people defecated in the (Stateh,fake,fake,fake,real,"['building', 'ted', 'unfortunately', 'people', 'documented']",0.6459808349609375,"['building', 'defecated', 'people', 'statehouse', 'documented']",0.5386841297149658,0.42857142857142855
