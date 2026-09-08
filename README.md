@@ -82,8 +82,7 @@ baseline), demonstrating severe reliance on dataset artifacts.
 **User study (n=12):** 3.90/5 average clarity, 3.62/5 average trust, 83.3% preferred
 plain-English explanations over raw SHAP output.
 
-Full details, tables, and discussion in [`report/Fake News Classification and Explainability.pdf`](report/Fake News Classification and Explainability.pdf).
-
+Full details, tables, and discussion in [`report/Fake News Classification and Explainability.pdf`]
 ## References
 
 See the References section of the final report for full citations (Geirhos et al. 2020,
